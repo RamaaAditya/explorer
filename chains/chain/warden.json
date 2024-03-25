@@ -17,6 +17,6 @@
         "symbol": "WARD",
         "exponent": "6",
         "coingecko_id": "warden", 
-        "logo": "./chains/chain/chain-logo/warden.png"
+        "logo": "./chains/chain/chain-logo/warden.jpg"
     }]
 }
