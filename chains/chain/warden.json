@@ -11,12 +11,12 @@
     "coin_type": "118",
     "min_tx_fee": "800",
     "addr_prefix": "warden",
-    "logo": "./chains/chain/chain-logo/warden.png",
+    "logo": "https://dashnode.org/assets/images/crypto-logo/warden.png",
     "assets": [{
         "base": "uward",
         "symbol": "WARD",
         "exponent": "6",
         "coingecko_id": "warden", 
-        "logo": "./chains/chain/chain-logo/warden.jpg"
+        "logo": "https://dashnode.org/assets/images/crypto-logo/warden.png"
     }]
 }
