@@ -324,7 +324,7 @@ export const useDashboard = defineStore('dashboard', {
       }
       const source: Record<string, LocalConfig> =
         this.networkType === NetworkType.Mainnet
-          ? import.meta.glob('../../chains/mainnet/*.json', { eager: true })
+          ? import.meta.glob('../../chains/chain/*.json', { eager: true })
           : import.meta.glob('../../chains/testnet/*.json', { eager: true });
       Object.values<LocalConfig>(source).forEach((x: LocalConfig) => {
         this.chains[x.chain_name] = fromLocal(x);
@@ -336,7 +336,7 @@ export const useDashboard = defineStore('dashboard', {
       const config: Record<string, ChainConfig> = {} 
       const source: Record<string, LocalConfig> =
         network === NetworkType.Mainnet
-          ? import.meta.glob('../../chains/mainnet/*.json', { eager: true })
+          ? import.meta.glob('../../chains/chain/*.json', { eager: true })
           : import.meta.glob('../../chains/testnet/*.json', { eager: true });
       Object.values<LocalConfig>(source).forEach((x: LocalConfig) => {
         config[x.chain_name] = fromLocal(x);
