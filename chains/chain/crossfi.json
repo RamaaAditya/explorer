@@ -1,0 +1,22 @@
+{
+    "chain_name": "crossfi",
+    "registry_name": "crossfi",
+    "api": [
+        {"provider": "WardenProtocol", "address": "https://crossfi-testnet-api.itrocket.net"}
+    ],
+    "rpc": [
+        {"provider": "WardenProtocol", "address": "https://crossfi-testnet-rpc.itrocket.net"}
+    ],
+    "sdk_version": "0.45.1",
+    "coin_type": "60",
+    "min_tx_fee": "800",
+    "addr_prefix": "mx",
+    "logo": "https://dashnode.org/assets/images/crypto-logo/crossfi.png",
+    "assets": [{
+        "base": "mpx",
+        "symbol": "MPX",
+        "exponent": "18",
+        "coingecko_id": "unknown", 
+        "logo": "https://dashnode.org/assets/images/crypto-logo/crossfi.png"
+    }]
+}
