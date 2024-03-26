@@ -8,7 +8,7 @@
         {"provider": "WardenProtocol", "address": "https://rpc.alfama.wardenprotocol.org"}
     ],
     "sdk_version": "0.45.1",
-    "coin_type": "118",
+    "coin_type": "60",
     "min_tx_fee": "800",
     "addr_prefix": "warden",
     "logo": "https://dashnode.org/assets/images/crypto-logo/warden.png",
