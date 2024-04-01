@@ -1,16 +1,17 @@
 {
     "chain_name": "side",
-    "registry_name": "side",
+    "registry_name": "SIDE",
     "api": [
-        {"provider": "WardenProtocol", "address": "https://side-testnet-api.itrocket.net"}
+        {"provider": "SideOne", "address": "https://testnet-rest.side.one"}
+        
     ],
     "rpc": [
-        {"provider": "WardenProtocol", "address": "https://side-testnet-rpc.itrocket.net"}
+        {"provider": "SideOne", "address": "https://testnet-rpc.side.one"}
     ],
-    "sdk_version": "0.45.1",
-    "coin_type": "null",
+    "sdk_version": "0.47.4",
+    "coin_type": "118",
     "min_tx_fee": "800",
-    "addr_prefix": "side",
+    "addr_prefix": "bc",
     "logo": "https://dashnode.org/assets/images/crypto-logo/side.png",
     "assets": [{
         "base": "uside",
