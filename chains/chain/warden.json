@@ -3,11 +3,11 @@
     "registry_name": "warden",
     "api": [
         {"provider": "WardenProtocol", "address": "https://rest.alfaamaa.wardenprotocol.org"},
-        {"provider": "WardenProtocol", "address": "https://rest.buenavistaa.wardenprotocol.org"}
+        {"provider": "DashNode", "address": "https://warden-testnet-api.dashnode.org/"}
     ],
     "rpc": [
         {"provider": "WardenProtocol", "address": "https://rpc.alfama.wardenprotocol.org"},
-        {"provider": "WardenProtocol", "address": "https://rpc.buenavistaa.wardenprotocol.org"}
+        {"provider": "DashNode", "address": "https://warden-testnet-rpc.dashnode.org/"}
     ],
     "sdk_version": "0.45.1",
     "coin_type": "118",
