@@ -2,10 +2,10 @@
     "chain_name": "crossfi",
     "registry_name": "crossfi",
     "api": [
-        {"provider": "WardenProtocol", "address": "https://crossfi-testnet-api.itrocket.net"}
+        {"provider": "DashNode", "address": "https://crossfi-testnet-api.dashnode.org/"}
     ],
     "rpc": [
-        {"provider": "WardenProtocol", "address": "https://crossfi-testnet-rpc.itrocket.net"}
+        {"provider": "DashNode", "address": "https://crossfi-testnet-rpc.dashnode.org/"}
     ],
     "sdk_version": "0.45.1",
     "coin_type": "60",
