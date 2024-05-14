@@ -2,14 +2,12 @@
     "chain_name": "warden",
     "registry_name": "warden",
     "api": [
-        {"provider": "WardenProtocol - Alfama", "address": "https://rest.alfama.wardenprotocol.org"},
-        {"provider": "WardenProtocol - Buenavista", "address": "https://api.buenavista.wardenprotocol.org"},
-        {"provider": "DashNode - Buenavista", "address": "https://warden-testnet-api.dashnode.org"}
+        {"provider": "DashNode - Buenavista", "address": "https://warden-testnet-api.dashnode.org"},
+        {"provider": "WardenProtocol - Buenavista", "address": "https://api.buenavista.wardenprotocol.org"}
     ],
     "rpc": [
-        {"provider": "WardenProtocol - Alfama", "address": "https://rpc.alfama.wardenprotocol.org"},
-        {"provider": "WardenProtocol - Buenavista", "address": "https://rpc.alfama.wardenprotocol.org"},
-        {"provider": "DashNode - Buenavista", "address": "https://warden-testnet-rpc.dashnode.org"}
+        {"provider": "DashNode - Buenavista", "address": "https://warden-testnet-rpc.dashnode.org"},
+       {"provider": "WardenProtocol - Buenavista", "address": "https://rpc.alfama.wardenprotocol.org"}
     ],
     "sdk_version": "0.45.1",
     "coin_type": "118",
