@@ -11,12 +11,12 @@
     "coin_type": "118",
     "min_tx_fee": "500",
     "addr_prefix": "empe",
-    "logo": "https://dashnode.org/assets/images/crypto-logo/empe.png",
+    "logo": "https://dashnode.org/assets/images/crypto-logo/empeiria.png",
     "assets": [{
         "base": "uempe",
         "symbol": "EMPE",
         "exponent": "6", 
         "coingecko_id": "",
-        "logo": "https://dashnode.org/assets/images/crypto-logo/empe.png"
+        "logo": "https://dashnode.org/assets/images/crypto-logo/empeiria.png"
     }]
 }
