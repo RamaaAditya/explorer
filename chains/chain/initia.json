@@ -1,0 +1,18 @@
+{
+    "chain_name": "Initia",
+    "api": ["https://lcd.initiation-1.initia.xyz"],
+    "rpc": ["https://initia-testnet-rpc.dashnode.org"],
+    "coin_type": 118,
+    "min_tx_fee": 0.15,
+    "sdk_version": "0.47.4",
+    "addr_prefix": "init",
+    "logo": "https://dashnode.org/assets/images/crypto-logo/initia.png",
+    "assets": [
+      {
+        "base": "uinit",
+        "symbol": "UINIT",
+        "exponent": 6,
+        "logo": "https://dashnode.org/assets/images/crypto-logo/initia.png"
+      }
+    ]
+  }

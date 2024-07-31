@@ -1,0 +1,21 @@
+{
+    "chain_name": "symphony",
+    "registry_name": "Symphony",
+    "api": [
+        {"provider": "DashNode", "address": "https://symphony-testnet-api.dashnode.org"}
+    ], 
+    "rpc": [
+        {"provider": "DashNode", "address": "https://symphony-testnet-rpc.dashnode.org"}
+    ],
+    "sdk_version": "0.47.4",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "symphony",
+    "logo": "https://dashnode.org/assets/images/crypto-logo/symphony.png",
+    "assets": [{
+        "base": "note",
+        "symbol": "MLD",
+        "exponent": "6",
+        "logo": "https://dashnode.org/assets/images/crypto-logo/symphony.png"
+    }]
+}

@@ -1,0 +1,22 @@
+{
+    "chain_name": "empe",
+    "registry_name": "Empeiria",
+    "api": [
+        {"provider": "DashNode", "address": "https://empe-testnet-api.dashnode.org"}
+    ], 
+    "rpc": [
+        {"provider": "DashNode", "address": "https://empe-testnet-rpc.dashnode.org"}
+    ],
+    "sdk_version": "0.47.4",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "addr_prefix": "empe",
+    "logo": "https://dashnode.org/assets/images/crypto-logo/empe.png",
+    "assets": [{
+        "base": "uempe",
+        "symbol": "EMPE",
+        "exponent": "6", 
+        "coingecko_id": "",
+        "logo": "https://dashnode.org/assets/images/crypto-logo/empe.png"
+    }]
+}
